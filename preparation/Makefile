@@ -1,4 +1,7 @@
-all: clean_up simplify
+all: clean_up simplify jsonify
+
+jsonify:
+	./jsonify.rb > ../site/ships.js
 
 simplify:
 	./simplify.rb
