@@ -16,10 +16,31 @@ padding: 0;
 }
 
 #wrapper{
-    margin: auto 0;
     width: 1264px;
-
+    margin-right: auto; margin-left: auto;
 }
+
+p {
+    color: #635a59;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+a {
+  color: #635a59;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+h1 {
+    text-align: center;
+    color: #635a59;
+    opacity: 0.6;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 70px;
+}
+
 
 #map_div {
     float:left;
