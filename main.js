@@ -30,7 +30,7 @@ function animate_ship(ship)
 
 var ticker = 0
 
-  var start_at_journey = 500
+  var start_at_journey = 0
   var start_offset = ships[start_at_journey].d
 
 setInterval(function() {
