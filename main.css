@@ -1,3 +1,8 @@
+body {
+  font: Georgia;
+  margin: 4px 4px 4px 4px;
+}
+
 
 svg {
   background-image:url("map.png");
