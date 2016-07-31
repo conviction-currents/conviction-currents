@@ -16,7 +16,7 @@ padding: 0;
 }
 
 #wrapper{
-    width: 1264px;
+    width: 1284px;
     margin-right: auto; margin-left: auto;
 }
 
@@ -51,7 +51,7 @@ h1 {
 
 #years_div {
     float: right;
-    width: 200px;
+    width: 220px;
     height: 658px;
     margin: 10px 0px 20px 0px;
     overflow-y: scroll;
