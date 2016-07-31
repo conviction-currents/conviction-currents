@@ -1,0 +1,71 @@
+
+svg {
+  background-image:url("map.png");
+  background-repeat: no-repeat;
+  border: 2px solid rgba(255,255,255,0.3);
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+#wrapper{
+    margin: auto 0;
+    width: 1264px;
+
+}
+
+#map_div {
+    float:left;
+    width:1024px;
+    height:658px;
+
+}
+
+#years_div {
+    float: right;
+    width: 200px;
+    height: 658px;
+    margin: 10px 0px 20px 0px;
+    overflow-y: scroll;
+}
+
+.date{
+    font-size: 40px;
+    font-family: "Georgia";
+    color: #D3D3D3;
+}
+
+.ship{
+    font-size: 14px;
+    font-family: "Georgia";
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.convicts {
+    font-size: 14px;
+    font-family: "Georgia";
+    color: #999999;
+    padding-bottom:10px;
+}
+
+
+
+#mapping {
+  background-image:url("map.png");
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
